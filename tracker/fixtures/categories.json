@@ -1,0 +1,65 @@
+[
+  {
+    "model": "tracker.category",
+    "pk": 1,
+    "fields": {
+      "name": "Food",
+      "description": "Meals, groceries, eating out",
+      "user": 1
+    }
+  },
+  {
+    "model": "tracker.category",
+    "pk": 2,
+    "fields": {
+      "name": "Transportation",
+      "description": "Bus, taxi, fuel, Uber, etc.",
+      "user": 1
+    }
+  },
+  {
+    "model": "tracker.category",
+    "pk": 3,
+    "fields": {
+      "name": "Data & Airtime",
+      "description": "Internet, phone recharge",
+      "user": 1
+    }
+  },
+  {
+    "model": "tracker.category",
+    "pk": 4,
+    "fields": {
+      "name": "Black Tax",
+      "description": "Family support",
+      "user": 1
+    }
+  },
+  {
+    "model": "tracker.category",
+    "pk": 5,
+    "fields": {
+      "name": "Clothing",
+      "description": "Clothes & fashion",
+      "user": 1
+    }
+  },
+  {
+    "model": "tracker.category",
+    "pk": 6,
+    "fields": {
+      "name": "Investments",
+      "description": "Stocks, crypto, savings",
+      "user": 1
+    }
+  },
+  {
+    "model": "tracker.category",
+    "pk": 7,
+    "fields": {
+      "name": "Hair & Skincare",
+      "description": "Salon, barber, cosmetics",
+      "user": 1
+    }
+  }
+]
