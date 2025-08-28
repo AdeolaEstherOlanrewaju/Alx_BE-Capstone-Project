@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Budget Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="/api/categories/">Categories</a></li>
+                <li><a href="/api/transactions/">Transactions</a></li>
+                <li><a href="/admin/">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Track your expenses easily 🚀</h2>
+        <p>This is your homepage. Use the links above to explore.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Budget Tracker</p>
+    </footer>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>

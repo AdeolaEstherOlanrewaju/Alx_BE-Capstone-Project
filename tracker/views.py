@@ -25,3 +25,21 @@ def home(request):
             "Transactions": "/api/transactions/"
         }
     })
+
+from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Category, Transaction
+from .serializers import CategorySerializer, TransactionSerializer
+
+# API Views
+class CategoryViewSet(viewsets.ModelViewSet):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+
+class TransactionViewSet(viewsets.ModelViewSet):
+    queryset = Transaction.objects.all()
+    serializer_class = TransactionSerializer
+
+# Homepage (HTML)
+def home(request):
+    return render(request, "tracker/home.html")
